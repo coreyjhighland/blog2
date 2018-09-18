@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const blogPostSchema = mongoose.Schema({
   author: {
     firstName: String,
-    lastName: string
+    lastName: String
   },
   title: { type: String, required: true },
   content: { type: String },
